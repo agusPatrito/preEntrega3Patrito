@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+header ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover{
+    text-decoration:underline;
+}
+
+#nuevaCuenta input{
+    display: flex;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+    
+}
+
+.boton1{
+    border-radius: 6px;
+    padding: 5px;
+    background-color: grey;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    
+
+}
+
+#inicioSesion input{
+    display: flex;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+
