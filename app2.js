@@ -46,6 +46,7 @@ function crearUsuario(){
         localStorage.setItem('listaUsuarios', JSON.stringify(listaUsuarios));
 
         alert('USUARIO CREADO CORRECTAMENTE.');
+        document.getElementById('nuevaCuenta').reset();
     }
 
 
